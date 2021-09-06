@@ -6,7 +6,7 @@
 #include <time.h>
 #include <fcntl.h>
 #include <stdlib.h>
-#include "./get_next_line/get_next_line.h"
+#include "./gnl/get_next_line.h"
 
 const int    width = 210;
 const int    height = 50;
@@ -49,7 +49,7 @@ int	stream_of_numbers(char ***array, s_list *list)
 	int i = 0;
 	int	print_zeros = 0;
 	int rndm;
-	list->nbr_zeros;
+	// list->nbr_zeros;
 	while (i < height && print_zeros < list->nbr_zeros)
 	{
 		rndm = rand() % 50;

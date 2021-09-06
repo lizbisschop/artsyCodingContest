@@ -6,7 +6,7 @@ FLAGS = -Wall -Werror -Wextra
 
 OBJ = $(SRCS:.c=.o)
 
-INCL = -I ./get_next_line/get_next_line.h
+INCL = -I ./gnl/get_next_line.h
 
 ifdef DEBUG
 FLAGS += -fsanitize=address -fno-omit-frame-pointer -g
