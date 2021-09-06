@@ -1,6 +1,6 @@
 NAME = brainz
 
-SRCS = ./get_next_line/get_next_line.c ./get_next_line/get_next_line_utils.c main.c
+SRCS = ./gnl/get_next_line.c ./gnl/get_next_line_utils.c main.c
 
 FLAGS = -Wall -Werror -Wextra
 
